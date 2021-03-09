@@ -264,7 +264,39 @@ hr {
   color: white;
 }
 
-.video_grid {
+/* VIDEO SECTION */
+
+.videos {
   background-color: var(--grid_background);
   height: 80vh;
+  display: flex;
+  padding-top: 50px;
+}
+
+iframe {
+}
+
+.intro_video_area {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.intro_video {
+  width: 50%;
+  text-align: right;
+}
+
+.intro_video_content {
+  width: 50%;
+  color: white;
+  text-align: left;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.intro_video_content p {
+  color: var(--font-gray);
 }
