@@ -23,3 +23,7 @@ Button-red: #bb271a
   --font-gray: #aaaaaa;
   --button-red: #bb271a;
 }
+
+html {
+  background-color: var(--sidenav-gray);
+}
