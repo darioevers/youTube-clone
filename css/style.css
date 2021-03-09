@@ -1,0 +1,25 @@
+/* Assets:
+
++Fonts
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
++Colors
+Topnav-gray: #202020
+Sidenav-gray: #212121
+Searchbutton-gray: #313131
+Searchbutton-magnifierglas-gray: #6f6f6f
+Chanel_info-gray: #181818
+Font-gray: #aaaaaa
+Button-red: #bb271a
+*/
+
+:root {
+  --topnav-gray: #202020;
+  --sidenav-gray: #212121;
+  --searchbutton-gray: #313131;
+  --searchbutton-magnifierglas-gray: #6f6f6f;
+  --chanel_info-gray: #181818;
+  --font-gray: #aaaaaa;
+  --button-red: #bb271a;
+}
