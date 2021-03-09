@@ -270,8 +270,8 @@ hr {
 .videos {
   background-color: var(--grid_background);
   height: 80vh;
-  display: flex;
-  padding-top: 50px;
+  /* display: flex; */
+  padding-top: 30px;
 }
 
 iframe {
@@ -280,7 +280,7 @@ iframe {
 .intro_video_area {
   display: flex;
   align-items: center;
-  height: 300px;
+  height: 350px;
   width: 70%;
   margin: 0 auto;
 }
@@ -295,7 +295,7 @@ iframe {
   color: white;
   text-align: left;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .intro_video_content h1 {
@@ -304,4 +304,9 @@ iframe {
 
 .intro_video_content p {
   color: var(--font-gray);
+}
+
+.hr_intro {
+  width: 70%;
+  margin: 0 auto;
 }
