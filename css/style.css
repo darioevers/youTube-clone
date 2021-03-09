@@ -49,6 +49,8 @@ body {
   right: 0;
 }
 
+/* TOP NAVIGATION, SEARCH BAR, TOP ICONS */
+
 a {
   text-decoration: none;
   color: white;
@@ -91,8 +93,8 @@ a {
 }
 
 .search_button {
-  width: 35px;
-  height: 35px;
+  width: 60px;
+  height: 33px;
   border: none;
   background-color: var(--searchbutton-gray);
   margin: 0px 10px 0px -5px;
@@ -107,6 +109,15 @@ a {
   font-size: 1.2em;
 }
 
+/* MAIN CONTENT */
+
+.main_content {
+  display: flex;
+  /* border: red solid 1px; */
+}
+
+/* SIDE NAVIGATION, LINKS */
+
 .sidenav {
   display: block;
   flex-wrap: wrap;
@@ -120,22 +131,19 @@ a {
   color: var(--font-gray);
 }
 
-.main_content {
-  display: flex;
-  /* border: red solid 1px; */
-}
+/* PROFILE, IMAGE, GRIDS, etc */
 
 .youtube_profile {
   display: block;
 }
 
 .header_image {
-  background-image: url(../images/thisisparis_yt_header.png);
   width: 100%;
-  height: 28vh;
   /* border: red solid 1px; */
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+
+.header_paris {
+  width: 100%;
 }
 
 .chanel_info {
