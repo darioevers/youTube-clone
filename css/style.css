@@ -87,6 +87,7 @@ a {
   border: none;
   padding-left: 15px;
   font-size: 120%;
+  color: white;
 }
 
 .search_button {
@@ -100,6 +101,10 @@ a {
 .topnav_right {
   width: 25%;
   text-align: right;
+}
+
+.topnav i {
+  font-size: 1.2em;
 }
 
 .sidenav {
