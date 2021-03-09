@@ -27,3 +27,8 @@ Button-red: #bb271a
 html {
   background-color: var(--sidenav-gray);
 }
+
+topnav {
+  width: 100%;
+  line-height: ;
+}
