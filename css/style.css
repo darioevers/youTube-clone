@@ -23,8 +23,9 @@ Button-red: #bb271a
   --searchbutton-magnifierglas-gray: #6f6f6f;
   --chanel_info-gray: #181818;
   --font-gray: #aaaaaa;
-  --button-red: #bb271a;
+  --button-red: #cc0401;
   --searchbar: #121212;
+  --grid_background: #0f0f0f;
 }
 
 * {
@@ -146,13 +147,87 @@ a {
 }
 
 .chanel_info {
+  display: block;
+  height: 160px;
+  margin-top: -4px;
+  background-color: var(--chanel_info-gray);
 }
 
 .chanel_info_top {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 120px;
+}
+
+.chanel_info_top_left {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.profile_pic {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.chanel_info_top_mid {
+  align-items: center;
+  justify-content: left;
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+}
+
+.chanel_info_top_mid p {
+  color: var(--font-gray);
+}
+
+.chanel_info_top_right {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.fa-itunes-note {
+  color: var(--font-gray);
+  font-size: 0.7em;
+}
+
+.subscribe_button {
+  background-color: var(--button-red);
+  color: white;
+  height: 45px;
+  width: 120px;
+  border: none;
 }
 
 .chanel_info_bot {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+}
+
+.chanel_info_bot a {
+  color: #aaaaaa;
+  font-size: 1.1em;
+  padding: 0px 25px 10px;
+}
+
+.home {
+  border-bottom: var(--font-gray) solid 3px;
+}
+
+.chanel_info_bot a:hover {
+  color: white;
 }
 
 .video_grid {
+  background-color: var(--grid_background);
+  height: 56vh;
 }
