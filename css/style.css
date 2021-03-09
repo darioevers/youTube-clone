@@ -114,6 +114,7 @@ a {
 
 .main_content {
   display: flex;
+  width: 100%;
   /* border: red solid 1px; */
 }
 
@@ -121,11 +122,34 @@ a {
 
 .sidenav {
   display: block;
-  flex-wrap: wrap;
-  width: 285px;
+  max-width: 440px;
+  min-width: 270px;
   height: 100vh;
   background-color: var(--sidenav-gray);
-  padding: 15px;
+}
+
+.sidenav_obj {
+  height: 50px;
+  width: 100%;
+  color: white;
+  align-items: center;
+  display: flex;
+  padding: 0px 20px;
+}
+
+.sidenav_obj:hover {
+  background-color: #383838;
+}
+
+.sidenav i {
+  margin-right: 20px;
+  font-size: 1.2em;
+  color: var(--font-gray);
+  text-align: center;
+}
+
+hr {
+  border: 1px #383838 solid;
 }
 
 .sidenav .h2 {
@@ -136,6 +160,7 @@ a {
 
 .youtube_profile {
   display: block;
+  width: 100%;
 }
 
 .header_image {
@@ -171,9 +196,12 @@ a {
 .profile_pic {
   border-radius: 50%;
   overflow: hidden;
+  height: 90px;
+  width: 90px;
 }
 
 .chanel_info_top_mid {
+  display: block;
   align-items: center;
   justify-content: left;
   width: 70%;
@@ -229,5 +257,5 @@ a {
 
 .video_grid {
   background-color: var(--grid_background);
-  height: 56vh;
+  height: 80vh;
 }
