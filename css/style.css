@@ -191,6 +191,7 @@ select:focus {
   min-width: 270px;
   height: 100vh;
   padding-bottom: 150px;
+  padding-top: 17px;
   background-color: var(--sidenav-gray);
   position: fixed;
   left: 0px;
