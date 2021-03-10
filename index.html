@@ -76,6 +76,14 @@
         <div class="sidenav_obj"><i class="fas fa-life-ring"></i> Help</div>
         <div class="sidenav_obj"><i class="fas fa-flag"></i> Send feedback</div>
       </div>
+
+      <div class="small_sidenav" id="small_sidenav">
+        <div class="small_sidenav_button"><div class="sidenav_obj_icon"><i class="fas fa-home"></i></div> <div class="sidenav_obj_text"> Home</div></div>
+        <div class="small_sidenav_button"><div class="sidenav_obj_icon"><i class="fas fa-fire"></i> </div> <div class="sidenav_obj_text"> Trends</div></div>
+        <div class="small_sidenav_button"><div class="sidenav_obj_icon"><i class="fab fa-youtube"></i></div> <div class="sidenav_obj_text"> Subs</div></div>
+        <div class="small_sidenav_button"><div class="sidenav_obj_icon"><i class="fab fa-youtube"></i></div> <div class="sidenav_obj_text"> Media</div></div>
+      </div>
+
       <div class="youtube_profile">
         <div class="header_image">
           <img src="./images/joynerlucas_header.png" class="header_paris" />
@@ -117,14 +125,30 @@
         </div>
     </main>
     <script>
-        function myFunction() {
-          var x = document.getElementById("sidenav");
-          if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
+        // function myFunction() {
+        //   var x = document.getElementById("sidenav");
+        //   if (x.style.display === "none") {
+        //     x.style.display = "block";
+        //   } else {
+        //     x.style.display = "none";
+        //   }
+        // }
+
+function myFunction() {
+    if (document.getElementById('sidenav')) {
+
+        if (document.getElementById('sidenav').style.display == 'none') {
+            document.getElementById('sidenav').style.display = 'block';
+            document.getElementById('small_sidenav').style.display = 'none';
         }
-        </script>
+        else {
+            document.getElementById('sidenav').style.display = 'none';
+            document.getElementById('small_sidenav').style.display = 'block';
+        }
+    }
+}
+
+</script>
+
   </body>
 </html>

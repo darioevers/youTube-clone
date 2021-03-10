@@ -151,6 +151,31 @@ select:focus {
   outline: none;
 }
 
+.small_sidenav {
+  display: none;
+  color: var(--font-gray);
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  width: 80px;
+  background-color: var(--sidenav-gray);
+}
+
+.small_sidenav_button {
+  margin: 30px 20px;
+}
+
+.small_sidenav .sidenav_obj_icon {
+  font-size: 1.4em;
+  color: var(--font-gray);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.small_sidenav .sidenav_obj_text {
+  font-size: 0.6em;
+}
+
 .sidenav {
   display: block;
   overflow-y: auto;
