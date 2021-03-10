@@ -21,7 +21,7 @@
   <body>
     <div class="topnav">
       <div class="topnav_left">
-        <a href="#"><i class="fas fa-bars"></i></a>
+        <button onclick="myFunction()" class="hamburger_button"><i class="fas fa-bars"></i></button>
         <a href="#"><img src="./images/yt_logo_rgb_dark.png" class="logo" /></a>
       </div>
       <div class="topnav_mid">
@@ -40,8 +40,8 @@
       </div>
     </div>
     <main class="main_content">
-      <div class="sidenav">
-          <div class="sidenav_obj"><i class="fas fa-home"></i> Home</div>
+      <div class="sidenav" id="sidenav">
+        <div class="sidenav_obj"><i class="fas fa-home"></i> Home</div>
         <div class="sidenav_obj"><i class="fas fa-fire"></i> Trending</div>
         <div class="sidenav_obj"><i class="fab fa-youtube"></i> Subscriptions</div>
         <hr />
@@ -116,5 +116,15 @@
         <hr class="hr_intro">
         </div>
     </main>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("sidenav");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
   </body>
 </html>
