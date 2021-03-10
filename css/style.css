@@ -329,7 +329,6 @@ hr {
 .videos {
   background-color: var(--grid_background);
   height: 80vh;
-  /* display: flex; */
   padding-top: 30px;
 }
 
@@ -340,7 +339,7 @@ iframe {
   display: flex;
   align-items: center;
   height: 350px;
-  width: 1000px;
+  width: 1075px;
   margin: 0 auto;
 }
 
@@ -366,6 +365,63 @@ iframe {
 }
 
 .hr_intro {
+  width: 1075px;
+  margin: 0 auto;
+}
+
+.videos_header {
+  display: flex;
+  align-items: center;
   width: 1000px;
   margin: 0 auto;
+}
+
+.videos_header_name {
+  color: white;
+  font-size: 0.6em;
+}
+
+.videos_header_play {
+  margin-left: 30px;
+  color: var(--font-gray);
+  font-size: 0.9em;
+}
+
+.videos_header_play i {
+  margin-right: 10px;
+}
+
+.video_section_albumOne {
+  display: flex;
+  width: 1075px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.videos_albumOne {
+  width: 210px;
+  margin-right: 5px;
+}
+
+.video_small {
+}
+
+.video_description_title {
+  color: white;
+}
+
+.video_description_artist {
+  color: var(--font-gray);
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.video_description_stats {
+  display: flex;
+  color: var(--font-gray);
+  font-size: 0.8em;
+}
+
+.video_description_views {
+  margin-right: 20px;
 }
