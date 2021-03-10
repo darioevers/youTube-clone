@@ -136,6 +136,7 @@ a {
   max-width: 440px;
   min-width: 270px;
   height: 100vh;
+  padding-bottom: 150px;
   background-color: var(--sidenav-gray);
 }
 
@@ -155,7 +156,7 @@ a {
 .sidenav i {
   margin-right: 30px;
   margin-left: 10px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: var(--font-gray);
   text-align: center;
 }
