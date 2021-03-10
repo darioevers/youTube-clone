@@ -360,7 +360,7 @@ iframe {
 }
 
 .intro_video_content {
-  width: 50%;
+  width: 40%;
   color: white;
   text-align: left;
   align-items: center;
@@ -369,6 +369,7 @@ iframe {
 
 .intro_video_content h1 {
   margin-bottom: 25px;
+  font-size: 1.7em;
 }
 
 .intro_video_content p {
