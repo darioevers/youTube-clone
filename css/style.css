@@ -85,7 +85,7 @@ a {
 
 .logo {
   height: 20px;
-  margin-left: 14px;
+  margin-left: 30px;
 }
 
 .topnav_mid {
@@ -156,7 +156,6 @@ select:focus {
   color: var(--font-gray);
   margin: 0 auto;
   text-align: center;
-  padding-top: 20px;
   width: 80px;
   background-color: var(--sidenav-gray);
 }
