@@ -114,6 +114,10 @@ a {
   margin-right: 20px;
 }
 
+.search_button i {
+  color: var(--font-gray);
+}
+
 .topnav_right {
   width: 15%;
   text-align: right;
