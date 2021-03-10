@@ -197,19 +197,21 @@ hr {
   height: 160px;
   margin-top: -4px;
   background-color: var(--chanel_info-gray);
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .chanel_info_top {
   display: flex;
   align-items: center;
-  max-width: 70%;
   margin: 0 auto;
   height: 120px;
+  width: 1000px;
 }
 
 .chanel_info_top_left {
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   display: flex;
   width: 15%;
   margin: 0 auto;
@@ -257,7 +259,6 @@ hr {
 }
 
 .chanel_info_bot {
-  width: 80%;
   margin: 0 auto;
   text-align: center;
   line-height: 35px;
@@ -293,7 +294,7 @@ iframe {
   display: flex;
   align-items: center;
   height: 350px;
-  width: 70%;
+  width: 1000px;
   margin: 0 auto;
 }
 
