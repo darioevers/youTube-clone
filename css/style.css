@@ -155,19 +155,25 @@ a {
 .sidenav i {
   margin-right: 30px;
   margin-left: 10px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: var(--font-gray);
   text-align: center;
 }
 
 hr {
   border: 1px #383838 solid;
+  margin: 20px 0px;
 }
 
 .sidenav h2 {
   margin: 20px 0px 20px 20px;
   font-size: 1.2em;
   color: var(--font-gray);
+}
+
+.subscription_links .sidenav_obj {
+  margin-bottom: -20px;
+  cursor: pointer;
 }
 
 /* PROFILE, IMAGE, GRIDS, etc */
