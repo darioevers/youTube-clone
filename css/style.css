@@ -126,8 +126,13 @@ a {
 
 /* SIDE NAVIGATION, LINKS */
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .sidenav {
   display: block;
+  overflow-y: auto;
   max-width: 440px;
   min-width: 270px;
   height: 100vh;
