@@ -84,7 +84,7 @@
         <div class="small_sidenav_button"><div class="sidenav_obj_icon"><i class="fas fa-photo-video"></i></div> <div class="sidenav_obj_text"> Media</div></div>
       </div>
 
-      <div class="youtube_profile">
+      <div class="youtube_profile" id="youtube_profile">
         <div class="header_image">
           <img src="./images/joynerlucas_header.png" class="header_paris" />
         </div>
@@ -187,10 +187,12 @@
          if (document.getElementById('sidenav').style.display == 'none') {
             document.getElementById('sidenav').style.display = 'block';
             document.getElementById('small_sidenav').style.display = 'none';
+            document.getElementById('youtube_profile').style.marginLeft = '270px';
             }
             else {
             document.getElementById('sidenav').style.display = 'none';
             document.getElementById('small_sidenav').style.display = 'block';
+            document.getElementById('youtube_profile').style.marginLeft = '80px';
         }
     }
 }
