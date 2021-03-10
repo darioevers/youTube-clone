@@ -141,6 +141,12 @@ button:focus {
   outline: none;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
 .sidenav {
   display: block;
   overflow-y: auto;
