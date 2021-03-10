@@ -195,7 +195,7 @@ hr {
 .chanel_info_top {
   display: flex;
   align-items: center;
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
   height: 120px;
 }
