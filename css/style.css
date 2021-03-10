@@ -169,6 +169,7 @@ select:focus {
   color: var(--font-gray);
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .small_sidenav .sidenav_obj_text {
