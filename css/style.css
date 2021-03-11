@@ -362,16 +362,16 @@ iframe {
 }
 
 .intro_video {
-  width: 50%;
-  text-align: right;
+  width: 60%;
+  text-align: left;
 }
 
 .intro_video_content {
-  width: 40%;
+  width: 50%;
   color: white;
   text-align: left;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 00px;
 }
 
 .intro_video_content h1 {
