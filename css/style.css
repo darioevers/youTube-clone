@@ -198,8 +198,7 @@ select:focus {
 .sidenav {
   display: block;
   overflow-y: auto;
-  max-width: 440px;
-  min-width: 270px;
+  width: 230px;
   height: 100vh;
   padding-bottom: 150px;
   padding-top: 17px;
@@ -215,6 +214,7 @@ select:focus {
   align-items: center;
   display: flex;
   padding: 0px 20px;
+  font-size: 0.9em;
 }
 
 .sidenav_obj:hover {
@@ -224,7 +224,7 @@ select:focus {
 .sidenav i {
   margin-right: 30px;
   margin-left: 10px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: var(--font-gray);
   text-align: center;
 }
@@ -250,7 +250,7 @@ hr {
 .youtube_profile {
   display: block;
   width: 100%;
-  margin-left: 270px;
+  margin-left: 230px;
 }
 
 .header_image {
