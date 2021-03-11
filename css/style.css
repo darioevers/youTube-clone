@@ -175,7 +175,12 @@ select:focus {
 }
 
 .small_sidenav_button {
-  margin: 30px 20px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.small_sidenav_button:hover {
+  background-color: #383838;
 }
 
 .small_sidenav .sidenav_obj_icon {
