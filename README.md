@@ -1,7 +1,6 @@
 # YouTube-Clone
 
-<img src="images/readme-expanded.png"/>
-<img src="images/readme-smallsidenav.png"/>
+<img src="images/readme.gif"/>
 
 A limited-functional youtube clone based on HTML and CSS for training purposes.
 
