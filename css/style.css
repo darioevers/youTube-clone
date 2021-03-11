@@ -63,10 +63,16 @@ body {
   font-size: 1em;
 }
 
-a {
+.topnav a,
+.sidenav a {
   text-decoration: none;
   color: white;
   padding: 0px 15px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .topnav {
@@ -108,7 +114,7 @@ a {
   background-color: var(--searchbar);
   border: none;
   padding-left: 15px;
-  font-size: 120%;
+  font-size: 100%;
   color: white;
 }
 
@@ -264,7 +270,7 @@ hr {
   align-items: center;
   margin: 0 auto;
   height: 120px;
-  width: 1075px;
+  width: 1000px;
 }
 
 .chanel_info_top_left {
@@ -351,7 +357,7 @@ iframe {
   display: flex;
   align-items: center;
   height: 350px;
-  width: 1075px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -378,14 +384,14 @@ iframe {
 }
 
 .hr_intro {
-  width: 1075px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 .videos_header {
   display: flex;
   align-items: center;
-  width: 1075px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -406,13 +412,13 @@ iframe {
 
 .video_section_albumOne {
   display: flex;
-  width: 1075px;
+  width: 1000px;
   margin: 20px auto;
   flex-wrap: wrap;
 }
 
 .videos_albumOne {
-  width: 210px;
+  width: 195px;
   margin-right: 5px;
 }
 
