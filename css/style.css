@@ -200,7 +200,7 @@ select:focus {
   overflow-y: auto;
   width: 230px;
   height: 100vh;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
   padding-top: 17px;
   background-color: var(--sidenav-gray);
   position: fixed;
